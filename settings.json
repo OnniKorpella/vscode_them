@@ -1,0 +1,39 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.matchBrackets": "near",
+    "editor.renderLineHighlight": "gutter",
+    "zenMode.hideLineNumbers": false,
+    "editor.cursorStyle": "line-thin",
+    "editor.minimap.renderCharacters": false,
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.guides.bracketPairs": true,
+    "zenMode.silentNotifications": false,
+    "notebook.globalToolbarShowLabel": "never",
+    "lldb.suppressUpdateNotifications": true,
+    "extensions.ignoreRecommendations": true,
+    "window.autoDetectColorScheme": true,
+    "window.clickThroughInactive": false,
+    "http.proxyAuthorization": null,
+    "workbench.colorTheme": "Visual Studio 2017 Vim - C++",
+    "workbench.colorCustomizations": {
+    
+        "editor.hoverHighlightBackground": "#3c565b",
+        "editorLineNumber.activeForeground": "#69a288",
+        "editorCursor.foreground": "#69a288",
+        "tab.hoverForeground": "#62c397",
+        "icon.foreground": "#0866f3",
+        "list.hoverForeground": "#96b4e2",
+        "list.hoverBackground": "#6d3b3b",
+    "terminal.foreground": "#dfbea7",
+    "badge.foreground": "#38b4dd",
+    "editor.selectionBackground": "#244264",
+    // "editor.selectionBackground": "#242a64",
+    "editor.selectionHighlightBackground": "#3c6d21",
+    "statusBar.background":"#423b3b"
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.bracketPairColorization.enabled": false
+    // "editor.language.brackets"   : 
+
+}

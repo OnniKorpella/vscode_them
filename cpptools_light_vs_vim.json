@@ -1,0 +1,544 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Visual Studio Dark (C/C++)",
+    "colors": 
+    {
+        
+        "textCodeBlock.background": "#60e19a",
+        "editorLineNumber.foreground": "#ff69669d",
+        "settings.modifiedItemIndicator": "#ffd866",
+        "terminal.selectionBackground": "#ffd866",
+        "focusBorder": "#404a32",
+        "terminalCursor.background": "#c15c5c00",
+        "terminalCursor.foreground": "#ff69669d",
+        "editor.background": "#272727", // 1E1E1E 3b383e
+        "editor.foreground": "#747373",  // D4D4D4 747373
+        "editor.inactiveSelectionBackground": "#383232", // 3A3D41 211e1e
+        "editorIndentGuide.background": "#211e1e", // 404040
+        "editorIndentGuide.activeBackground": "#707070",
+        "editor.selectionHighlightBackground": "#ADD6FF26",
+        "editorWhitespace.foreground": "#2a616e", // 204852
+        "list.dropBackground": "#2d2828", //  383B3D
+        "activityBarBadge.background": "#211e1e", //007ACC
+        "sideBarTitle.foreground": "#c7b35c", //BBBBBB
+        "input.placeholderForeground": "#A6A6A6", //A6A6A6
+        "settings.textInputBackground": "#292929",
+        "settings.numberInputBackground": "#292929",
+        "menu.background": "#272424", // 252526
+        "menu.foreground": "#CCCCCC",
+        "statusBarItem.remoteForeground": "#FFF",
+        "statusBarItem.remoteBackground": "#10593f" // 16825D
+        
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "meta.embedded",
+                "source.groovy.embedded"
+            ],
+            "settings": { // D4D4D4
+                "foreground": "#D4D4D4"
+            }
+        },
+        {
+            "scope": "emphasis",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "strong",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "header",
+            "settings": { // 000080
+                "foreground": "#000080"
+            }
+        },
+        // {
+        //     "scope": "comment",
+        //     "settings": {
+        //         "foreground": "#4b5049"
+        //     }
+        // },
+        {
+            "scope": "comment.line", // 98c069
+            "settings": {
+                "foreground": "#525c7b"
+            }
+        },
+        {
+            "scope": "comment.block",
+            "settings": {
+                "foreground": "#98c069"
+            }
+        },
+        {
+            "scope": "constant.language",
+            "settings": { // 569cd6
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": { // b5cea8 все цифры
+                "foreground": "#d787af"
+            }
+        },
+        {
+            "scope": "constant.regexp",
+            "settings": {
+                "foreground": "#646695"
+            }
+        },
+        {
+            "scope": "entity.name.tag",
+            "settings": { // 569cd6 @@
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": "entity.name.tag.css",
+            "settings": {
+                "foreground": "#d7ba7d"
+            }
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "settings": { // 9cdcfe
+                "foreground": "#9cdcfe"
+            }
+        },
+        {
+            "scope": [
+                "entity.other.attribute-name.class.css",
+                "entity.other.attribute-name.class.mixin.css",
+                "entity.other.attribute-name.id.css",
+                "entity.other.attribute-name.parent-selector.css",
+                "entity.other.attribute-name.pseudo-class.css",
+                "entity.other.attribute-name.pseudo-element.css",
+                "source.css.less entity.other.attribute-name.id",
+                "entity.other.attribute-name.attribute.scss",
+                "entity.other.attribute-name.scss"
+            ],
+            "settings": {
+                "foreground": "#d1ad60"
+            }
+        },
+        {
+            "scope": "invalid",
+            "settings": {
+                "foreground": "#f44747"
+            }
+        },
+        {
+            "scope": "markup.underline",
+            "settings": {
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": "markup.bold",
+            "settings": {
+                "fontStyle": "bold", // 569cd6
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": "markup.heading",
+            "settings": {
+                "fontStyle": "bold", // 569cd6
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": "markup.italic",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "markup.inserted",
+            "settings": {
+                "foreground": "#b5cea8"
+            }
+        },
+        {
+            "scope": "markup.deleted",
+            "settings": {
+                "foreground": "#d59073"
+            }
+        },
+        {
+            "scope": "markup.changed",
+            "settings": { // 569cd6
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": "punctuation.definition.quote.begin.markdown",
+            "settings": {
+                "foreground": "#6A9955"
+            }
+        },
+        {
+            "scope": "punctuation.definition.list.begin.markdown",
+            "settings": { // 6796e6
+                "foreground": "#268a29"
+            }
+        },
+        // {
+        //     "scope": "meta.parens",
+        //     "settings": { // скобки и стрелки
+        //         "foreground": "#1aa9d0"
+        //     }
+        // },
+        {
+            "scope": "punctuation.separator",
+            "settings": { // стрелки
+                "foreground": "#1aa9d0"
+            }
+        },
+        {
+            "scope": "punctuation.terminator",
+            "settings": { // запятые и двоеточия
+                "foreground": "#857676"
+            }
+        },
+        // {
+        //     "scope": "punctuation.accessor",
+        //     "settings": { //
+        //         "foreground": "#d01a1a"
+        //     }
+        // },
+        {
+            "scope": "constant.other.placeholder",
+            "settings": { // Formatting placeholders, such as those used for sprintf(), e.g. %s, should use:
+                // "foreground": "#8985d2"
+                "foreground": "#afaf01"
+            }
+        },
+        {
+            "scope": "constant.character.escape",
+            "settings": { // Character escapes in strings, e.g. \n and \x20, should use:
+                "foreground": "#85d28e"
+            }
+        },
+        {
+            "scope": "markup.inline.raw",
+            "settings": {
+                "foreground": "#da815b"
+            }
+        },
+        {
+            "name": "brackets of XML/HTML tags",
+            "scope": "punctuation.definition.tag",
+            "settings": { // 808080
+                "foreground": "#808080"
+            }
+        },
+        {
+            "scope": "meta.preprocessor",
+            "settings": { // 569cd6
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": "meta.preprocessor.string",
+            "settings": {
+                "foreground": "#d07e5b"
+            }
+        },
+        {
+            "scope": "meta.preprocessor.numeric",
+            "settings": {
+                "foreground": "#b5cea8"
+            }
+        },
+        {
+            "scope": "meta.structure.dictionary.key.python",
+            "settings": { // 9cdcfe
+                "foreground": "#9cdcfe"
+            }
+        },
+        {
+            "scope": "meta.diff.header",
+            "settings": { // 569cd6
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": "storage",
+            "settings": { // 569cd6
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": "storage.type",
+            "settings": { //569cd6  Examples include int, bool and char. int
+                "foreground": "#88ae87"
+            }
+        },
+        {
+            "scope": "storage.modifier",
+            "settings": { // 569cd6 const
+                "foreground": "#656998"
+            }
+        },
+        {
+            "scope": "string",
+            "settings": { // D69D85 -- строки ,всимволы в ковычках и в скобках
+                "foreground": "#709ace"
+            }
+        },
+        {
+            "scope": "string.tag",
+            "settings": { // D69D85
+                "foreground": "#D69D85"
+            }
+        },
+        {
+            "scope": "string.value",
+            "settings": { // D69D85>
+                "foreground": "#a56f58"
+            }
+        },
+        {
+            "scope": "string.regexp",
+            "settings": {
+                "foreground": "#d16969"
+            }
+        },
+        {
+            "scope": "string.quoted.other",
+            "settings": { // зачения в скобках < >
+                "foreground": "#8e828d"
+            }
+        },
+        {
+            "name": "String interpolation",
+            "scope": [
+                "punctuation.definition.template-expression.begin",
+                "punctuation.definition.template-expression.end",
+                "punctuation.section.embedded"
+            ],
+            "settings": { // 569cd6
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "name": "Reset JavaScript string interpolation expression",
+            "scope": [
+                "meta.template.expression"
+            ],
+            "settings": { // !!!
+                "foreground": "#cd6f6f"
+            }
+        },
+        {
+            "scope": [
+                "support.type.vendored.property-name",
+                "support.type.property-name",
+                "variable.css",
+                "variable.scss",
+                "variable.other.less",
+                "source.coffee.embedded"
+            ],
+            "settings": { // 9cdcfe - переменные в джейсоне
+                "foreground": "#9cdcfe"
+            }
+        },
+        {
+            "scope": "keyword",
+            "settings": { // 569cd6 - цвет только typedef
+                "foreground": "#997469"
+            }
+        },
+        {
+            "scope": "keyword.control",
+            "settings": { // 569cd6  цвет ретюрнов ифов элсе итд
+                "foreground": "#8271de"
+            }
+        },
+        {
+            "scope": "keyword.operator",
+            "settings": { // B4B4B4 !!! c45d6b // знаки операторы равно
+                "foreground": "#519c99"
+            }
+        },
+        {
+            "scope": [
+                "keyword.operator.new",
+                "keyword.operator.expression",
+                "keyword.operator.cast",
+                "keyword.operator.sizeof",
+                "keyword.operator.instanceof",
+                "keyword.operator.logical.python"
+            ],
+            "settings": { // 569cd6 // цвет на сайзоф
+                "foreground": "#a7e793"
+            }
+        },
+        {
+            "scope": "keyword.other.unit",
+            "settings": { // b5cea8
+                "foreground": "#b5cea8"
+            }
+        },
+        {
+            "scope": [
+                "punctuation.section.embedded.begin.php",
+                "punctuation.section.embedded.end.php"
+            ],
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": "support.function.git-rebase",
+            "settings": { // 9cdcfe
+                "foreground": "#9cdcfe"
+            }
+        },
+        {
+            "scope": "constant.sha.git-rebase",
+            "settings": {
+                "foreground": "#b5cea8"
+            }
+        },
+        {
+            "name": "coloring of the Java import and package identifiers",
+            "scope": [
+                "storage.modifier.import.java",
+                "variable.language.wildcard.java",
+                "storage.modifier.package.java"
+            ],
+            "settings": { // d4d4d4 !!!
+                "foreground": "#d4d4d4"
+            }
+        },
+        {
+            "name": "this.self",
+            "scope": "variable.language",
+            "settings": { // 569cd6
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": "entity.name",
+            "settings": { // C8C8C8 // class
+                "foreground": "#a253c7"
+            }
+        },
+        {
+            "scope": "keyword.control.directive",
+            "settings": { // 9B9B9B
+                "foreground": "#cc6f61d6"
+            }
+        },
+
+        {
+            "scope": "entity.name.function", // только функции
+            "settings": { // C8C8C8
+                "foreground": "#f67c7c"
+            }
+        },
+        {
+            "scope": "entity.name.function.operator",
+            "settings": { // B4B4B4
+                "foreground": "#b17373"
+            }
+        },
+        {
+            "scope": "entity.name.function.preprocessor", // цвет у дифайнов
+            "settings": { // BD63C5
+                "foreground": "#8d5873"
+            }
+        },
+        // {
+        //     "scope": "entity.name.function.member.static", // цвет**********
+        //     "settings": { // BD63C5
+        //         "foreground": "#ff0084"
+        //     }
+        // },
+        {
+            "scope": "entity.name.label",
+            "settings": { // C8C8C8 !!!
+                "foreground": "#C8C8C8"
+            }
+        },
+        {
+            "scope": "entity.name.namespace",
+            "settings": { // C8C8C8
+                "foreground": "#C8C8C8"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.type",
+                "entity.name.class"
+            ],
+            "settings": { // 4EC9B0 - стандартные функции + имена структур и новых типов
+                "foreground": "#38b2db"
+            }
+        },
+        {
+            "scope": "entity.name.operator.custom-literal",
+            "settings": { // DADADA
+                "foreground": "#DADADA"
+            }
+        },
+        {
+            "scope": "entity.name.operator.custom-literal.number",
+            "settings": { // B5CEA8
+                "foreground": "#B5CEA8"
+            }
+        },
+        {
+            "scope": "entity.name.operator.custom-literal.string",
+            "settings": {
+                "foreground": "#d47b56"
+            }
+        },
+        {
+            "scope": [
+                "keyword.operator.new",
+                "keyword.operator.delete"
+            ],
+            "settings": { // 569CD6
+                "foreground": "#569CD6"
+            }
+        },
+        {
+            "scope": "variable.other.enummember",
+            "settings": { // B8D7A3 переменные в энум
+                "foreground": "#8e568f"
+            }
+        },
+        {
+            "scope": "variable.other.property",
+            "settings": { // DADADA  - имена в структурах
+                "foreground": "#b2c275"
+            }
+        },
+        {
+            "scope": "variable.parameter",
+            "settings": { // dedbdb  99e8dfc0 - имена переменных определенных в вызове фенкции
+                "foreground": "#ffd7af"
+            }
+        },
+        {
+            "scope": "variable", // переменные C8C8C8
+            "settings": { // 248216180 ffd7af
+                "foreground": "#e4aa71"
+            }
+        },
+    ]
+}
+
+// cp  /Volumes/ADD_A_USER/instructions/ms-vscode.cpptools-themes-2.0.0/themes/cpptools_light_vs_vim.json /Users/nellyole/.vscode/extensions/ms-vscode.cpptools-themes-2.0.0/themes
